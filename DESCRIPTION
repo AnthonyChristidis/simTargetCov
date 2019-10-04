@@ -15,6 +15,4 @@ Biarch: true
 Imports: MASS
 Depends:
 RoxygenNote: 6.1.1
-Suggests: R.rsp,
-   testthat
-VignetteBuilder: R.rsp
+Suggests: testthat
