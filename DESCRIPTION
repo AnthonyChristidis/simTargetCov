@@ -1,0 +1,20 @@
+Package: simTargetCov
+Type: Package
+Title: Data Transformation or Simulation with Target Empirical Covariance Matrix
+Version: 1.0
+Date: 2019-10-02
+Author: Anthony Christidis <anthony.christidis@stat.ubc.ca>,
+    Stefan Van Aelst <stefan.vanaelst@kuleuven.be>,
+    Ruben Zamar <ruben@stat.ubc.ca>
+Maintainer: Anthony Christidis <anthony.christidis@stat.ubc.ca>
+Description: Transforms or simulates data with a target empirical covariance matrix supplied
+             by the user. The method to obtain the data with the target empirical covariance
+             matrix is described in Section 5.1 of the article <arXiv:1812.05678>.
+License: GPL (>= 2)
+Biarch: true
+Imports: MASS
+Depends:
+RoxygenNote: 6.1.1
+Suggests: R.rsp,
+   testthat
+VignetteBuilder: R.rsp
