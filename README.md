@@ -4,7 +4,7 @@
 simTargetCov
 ============
 
-This package transforms of simulates data with a target empirical covariance matrix supplied by the user.
+This package transforms or simulates data with a target empirical covariance matrix supplied by the user.
 
 ------------------------------------------------------------------------
 
