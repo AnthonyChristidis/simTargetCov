@@ -50,8 +50,8 @@ target_cor <- function(r, p){
 
 # Transformation of data to target empirical covariance
 dat.target.cov <- simTargetCov(X = MASS::mvrnorm(30, mu = rep(0,6),
-                              Sigma = target_cor(0.5,6)),
-                              target = target_cor(0.5,6))
+                               Sigma = target_cor(0.5,6)),
+                               target = target_cor(0.5,6))
 round(cov(dat.target.cov), 2)
 
 # Simulation of data with target empirical covariance
