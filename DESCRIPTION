@@ -1,6 +1,6 @@
 Package: simTargetCov
 Type: Package
-Title: Data Transformation or Simulation with Target Empirical Covariance Matrix
+Title: Data Transformation or Simulation with Empirical Covariance Matrix
 Version: 1.0
 Date: 2019-10-02
 Author: Anthony Christidis <anthony.christidis@stat.ubc.ca>,

@@ -1,6 +1,6 @@
 #' @import stats
 #'
-#' @title Simulation of Data Empirical Covariance
+#' @title Data Transformation or Simulation with Target Empirical Covariance Matrix
 #'
 #' @description \code{simTargetCov} transforms or simulates data with a target empirical covariance matrix supplied by the user.
 #'

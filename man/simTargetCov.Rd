@@ -2,7 +2,7 @@
 % Please edit documentation in R/simTargetCov.R
 \name{simTargetCov}
 \alias{simTargetCov}
-\title{Data Transformation or Simulation with Target Empirical Covariance}
+\title{Data Transformation or Simulation with Target Empirical Covariance Matrix}
 \usage{
 simTargetCov(X = NULL, n, p, target)
 }
