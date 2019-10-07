@@ -1,6 +1,6 @@
 #' @import stats
 #'
-#' @title Data Transformation or Simulation with Target Empirical Covariance
+#' @title Simulation of Data Empirical Covariance
 #'
 #' @description \code{simTargetCov} transforms or simulates data with a target empirical covariance matrix supplied by the user.
 #'
@@ -70,13 +70,13 @@ simTargetCov <- function(X=NULL, n, p, target){
   X.tilde <- scale(X)
   S <- cov(X.tilde)
   # Spectral decomposition
-  res <- eigen(S, symmetric=T)
+  res <- eigen(S, symmetric=TRUE)
   P <- res$vectors;
   # Random orthogonal columns matrix
   Z <- X.tilde%*%P
   Z.tilde <- scale(Z)
   # Transformation by rotation of data matrix
-  res.target.cor <- eigen(target, symmetric=T)
+  res.target.cor <- eigen(target, symmetric=TRUE)
   Y <- t(res.target.cor$vectors%*%sqrt(diag(res.target.cor$values))%*%t(Z.tilde))
 
   # Return data with target empirical covariance matrix
