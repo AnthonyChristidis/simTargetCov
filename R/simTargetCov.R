@@ -4,10 +4,10 @@
 #'
 #' @description \code{simTargetCov} transforms or simulates data with a target empirical covariance matrix supplied by the user.
 #'
-#' @param X Data matrix for transformation.
 #' @param n Number of observations for data matrix output.
 #' @param p Number of variables for data matrix output.
 #' @param target Target empirical covariance for data matrix output.
+#' @param X Data matrix for transformation.
 #'
 #' @export
 #'
@@ -35,7 +35,7 @@
 #' sim.target.cov <- simTargetCov(n = 30, p = 6, target = target_cor(0.5,6))
 #' round(cov(sim.target.cov), 2)
 #'
-simTargetCov <- function(X=NULL, n, p, target){
+simTargetCov <- function(n, p, target, X=NULL){
 
   # Input check for target
   if(!is.matrix(target))
