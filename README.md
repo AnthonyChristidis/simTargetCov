@@ -1,5 +1,5 @@
 
-[![Build Status](https://travis-ci.org/AnthonyChristidis/simTargetCov.svg?branch=master)](https://travis-ci.com/AnthonyChristidis/simTargetCov) [![CRAN\_Status\_Badge](http://www.r-pkg.org/badges/version/simTargetCov)](https://cran.r-project.org/package=simTargetCov) [![Downloads](http://cranlogs.r-pkg.org/badges/simTargetCov)](https://cran.r-project.org/package=simTargetCov)
+[![Build Status](https://travis-ci.org/AnthonyChristidis/simTargetCov.svg?branch=master)](https://travis-ci.com/AnthonyChristidis/simTargetCov) [![CRAN\_Status\_Badge](https://www.r-pkg.org/badges/version/simTargetCov)](https://cran.r-project.org/package=simTargetCov) [![Downloads](https://cranlogs.r-pkg.org/badges/simTargetCov)](https://cran.r-project.org/package=simTargetCov)
 
 simTargetCov
 ============
